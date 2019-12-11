@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cheerio": "^0.6.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-svgstore": "^6.1.0"
+  },
+  "dependencies": {
+    "gulp-clean-css": "^3.0.3",
+    "gulp-concat": "^2.6.1",
+    "run-sequence": "^1.2.2"
+  }
+}

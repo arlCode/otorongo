@@ -1,0 +1,18 @@
+$green: #98ab1b;
+$background: #f2f1ec;
+$yellow: #efd673;
+$blue: #18a9ef;
+$darkBlue: darken($blue, 25%);
+$large: 769px;
+$small: 768px;
+$text: darken($background, 70%);
+@mixin large {
+   @media (min-width: #{$large}){
+    @content;
+  }
+}
+@mixin small {
+   @media (max-width: #{$small}){
+    @content;
+  }
+}

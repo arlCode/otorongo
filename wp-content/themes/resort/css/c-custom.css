@@ -1,0 +1,438 @@
+/*
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it
+is easier to update the theme. Simply copy an existing style
+from style.css to this file, and modify it to your liking. */
+
+
+/*
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+
+/*
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+
+
+/* -------  GlOBAL	-------- */
+
+
+/*body {
+  color: #333;
+  background: #fff;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+#header-contact {
+  display: none;
+}
+
+p {
+  letter-spacing: .02em;
+}*/
+
+
+/* Buttons */
+
+
+/*#wrapper .woo-sc-button, a.button, input[type=submit] {
+  border-radius: 0;
+  padding: 1.25em 1em;
+  letter-spacing: 1px;
+  display: block;
+}
+
+input[type=submit] {
+  background: #bcce3d;
+  font-weight: normal;
+}
+
+input[type=submit]:hover {
+  background: #afc039;
+}
+
+#wrapper .woo-sc-button, a.button:hover {
+  box-shadow: 0px 0px 0px black;
+}
+
+#intro-message h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#intro-message .button {
+  background: orange;
+  color: #1B658A;
+  font-size: 1.5em;
+  margin: 0 auto;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 0;
+}
+
+#intro-message .button a:hover {
+  color: white;
+}
+
+.button.view-all {
+  display: none;
+}
+
+.inner {
+  border: none;
+}
+
+.widget h3 {
+  text-align: left;
+}
+
+.hgroup {
+  float: left;
+}*/
+
+
+/* -------  TYPOGRAPHY	-------- */
+
+
+/*a {
+  color: #98ab1b;
+  -webkit-transition: color 0.4s linear;
+  transition: color 0.4s linear;
+}
+
+a:hover {
+  color: #829027;
+}
+
+h3 {
+  font-size: 1.3em;
+}*/
+
+
+/*	serif uppercase titles */
+
+
+/*dl dt {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.primary .widget h3 {
+  font-family: "Crimson Text", Georgia, serif;
+  letter-spacing: 4px;
+  font-weight: normal;
+}
+
+.home .primary .widget h3 {
+  height: 0;
+  width: 0;
+  display: none;
+}
+
+#footer-widgets .widget a {
+  color: #ffcc00;
+}*/
+
+
+/* page headers */
+
+
+/*	lists */
+
+
+/*.type-page .entry ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.type-page .entry ul li {
+  margin-bottom: 0.1em;
+  -webkit-transition: color 0.4s linear;
+  transition: color 0.4s linear;
+}
+
+.type-page .entry ul li:hover {
+  cursor: default;
+}
+
+ul.rollover-green li:hover {
+  color: #8ca32a;
+}
+
+ul.rollover-blue li:hover {
+  color: #7d285f;
+}
+
+.left-section h2 {
+  font-size: 2.25em;
+  padding-bottom: .5em;
+}
+
+.left-section p {
+  font-size: 1.25em;
+}
+
+.left-section {
+  width: 70%;
+  text-align: center;
+}
+
+.shortcode-typography {
+  line-height: 1.2;
+  padding-bottom: 1em;
+}*/
+
+
+/* -------  WIDGETS	-------- */
+
+
+/*#CDSWIDCOE.widCOE {
+  margin-top: 0;
+}
+
+.flexslider.no-frame .slide-content {
+  text-align: center;
+}
+
+.flexslider .slides img {
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 980px) {
+  #main .widget_woothemes_features .feature .feature-content {
+    overflow: hidden;
+    font-size: .75em;
+    text-align: left;
+  }
+  .widget_woothemes_features .feature .feature-title {
+    margin-bottom: .75rem;
+  }
+}*/
+
+
+/* -------  LAYOUT	-------- */
+
+
+/*div.woo-sc-box {
+  margin-top: 0;
+}*/
+
+
+/*.twocol-one, .threecol-one, .threecol-two, .fourcol-one, .fourcol-two, .fourcol-three, .fivecol-one, .fivecol-two, .fivecol-three, .fivecol-four, .sixcol-one, .sixcol-two, .sixcol-three, .sixcol-four, .sixcol-five {
+  margin-bottom: 2%;
+}*/
+
+
+/*#intro-message {
+  padding: 3em 2.4rem;
+  background-color: #1b658a;
+  color: white;
+}
+
+table#intro-pricing {
+  color: white;
+  background: none;
+}
+
+table#intro-pricing tbody th, table#intro-pricing tbody td {
+  background: none;
+}
+
+table#intro-pricing tbody tr {
+  background: none;
+}
+
+table#intro-pricing-res {
+  color: black;
+}*/
+
+
+/*	Tables	*/
+
+
+/*
+table.itinerary>tbody>tr>td:first-child {
+  width: 20%;
+}*/
+
+
+/* -------  IMAGES	-------- */
+
+
+/*.wp-caption {
+  margin-bottom: 1.0em;
+}*/
+
+
+/* -------  HEADER	-------- */
+
+
+/*#header, #header #fixed-header.fixed, #featured-slider {
+  background: #1e4b69;
+}*/
+
+
+/*.bgimg2 {
+  background: url(images/hero/toucan.jpg) no-repeat center center !important;
+}*/
+
+
+/*@media only screen and (min-width: 769px) {
+  .hero {
+    padding-bottom: 31%;
+  }
+}*/
+
+
+/*#fixed-header.fixed, #featured-slider {
+  background: #081e37 !important;
+}*/
+
+
+/*.tint {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2em 0;
+}
+
+.hero h1 {
+  font-size: 5em;
+}*/
+
+
+/*#header #fixed-header.fixed {
+  padding: 10px 0 30px;
+}*/
+
+
+/*#amazon-peru {
+  margin: 45px 30px 0 20px;
+  float: left;
+  color: #ffdf5c;
+}*/
+
+
+/*#header #fixed-header.fixed #amazon-peru {
+  margin: 59px 30px 0 20px;
+}*/
+
+
+/*	Nav	 */
+
+
+/*#top {
+  background-color: #0c1216;
+  padding-left: 9.8em;
+  border: none;
+}
+
+#top-nav a {
+  color: #ffdf5c;
+}
+
+#top-nav a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#top ul.nav>li>a {
+  border: none;
+}
+
+#top-nav li:last-child a {
+  border: none !important;
+}*/
+
+
+/*#navigation ul.nav>li a {
+  color: white;
+  font-size: 1.1em;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+#navigation ul.nav ul li {
+  border: none;
+}
+
+#navigation ul.nav>li.current_page_item a {
+  color: #ffdf5c;
+}
+
+#navigation ul.nav>li.current_page_parent a, #navigation ul.nav>li.current-menu-ancestor a {
+  color: #fff;
+}
+
+.sub-menu {
+  margin: 0;
+  padding: .75em 0;
+}*/
+
+
+/*
+@media only screen and (min-width: 769px) {
+  #navigation ul.nav ul {
+    background-color: none;
+    border: none;
+  }
+}
+
+#navigation ul.nav>li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+#navigation ul.nav ul li a {
+  padding: .75em 0;
+}*/
+
+
+/* -------  FOOTER	-------- */
+
+
+/*	Social - Footer	 */
+
+
+/*#bottom-social-connect a {
+  color: #ffdf5c;
+}
+
+.footer-submit {
+  float: left;
+  margin-right: 3em;
+}*/
+
+
+/* iPads (landscape) ----------- */
+
+
+/*@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  #intro-message .button {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .shortcode-typography {
+    font-size: 3.8em;
+  }
+  #intro-message .button {
+    max-width: 60%;
+    border-radius: 10px;
+  }
+  #intro-message p {
+    width: 70%;
+  }
+}*/

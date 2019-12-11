@@ -1,0 +1,124 @@
+/* 1.1 Defaults */
+html {
+  font-size: 18px;
+}
+
+body {
+  line-height             : 1.5;
+  background              : $background;
+  color                   : darken($background, 70%);
+  font-family             : "Lato", sans-serif;
+  padding                 : 0;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust    : 100%;
+  text-rendering          : optimizeSpeed;
+  -webkit-font-smoothing  : antialiased;
+}
+@media only screen and (min-width: 1224px) {
+  body {}
+}
+
+img {
+  vertical-align: bottom;
+  max-width     : 100%;
+  height        : auto;
+}
+
+hr {
+  background-color: #eeeeee;
+  border          : 0;
+  height          : 1px;
+  margin-bottom   : 1.618em;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.svgHide {
+  width  : 0;
+  height : 0;
+  display: none;
+}
+
+.videoWrapper {
+  position      : relative;
+  padding-bottom: 56.25%;
+  height        : 0;
+  margin-bottom : 2em;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top     : 0;
+  left    : 0;
+  width   : 100%;
+  height  : 100%;
+}
+
+.sbi_no_bio {
+  letter-spacing: .1rem;
+  color         : #5298D2 !important;
+}
+
+.pricing-block {
+  align-items  : center;
+  margin-bottom: 3rem;
+  @include large {
+    display       : flex;
+    flex-direction: row;
+    align-items   : flex-start;
+  }
+
+  p {
+    @include large {
+      flex         : 3;
+      padding-right: 4rem;
+    }
+  }
+
+  .btn {
+    @include large {
+      flex: 2;
+    }
+  }
+}
+
+.feature-list {
+  li {
+    margin-bottom: 1em;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+/*** Buttons ****/
+.btn {
+  padding        : 2rem .5rem;
+  border-radius  : 5px;
+  text-decoration: none;
+  text-align     : center;
+  font-weight    : 700;
+  display        : block;
+}
+
+.btn--main {
+  box-shadow      : 0 2px 1px 0 darken( $green, 10% );
+  background-color: $green;
+  color           : white;
+
+  &:hover {
+    text-decoration: none;
+    color          : darken(white, 5%);
+    box-shadow     : 0 3px 1px 0 darken( $green, 15% );
+  }
+}
+
+.post-meta {
+  margin-bottom: .5rem;
+
+  span {
+    color: $text;
+  }
+}

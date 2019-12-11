@@ -1,0 +1,127 @@
+.col-right {
+  // padding: 1rem;
+  .widget {
+    margin-bottom: 0;
+
+    p {
+      font-size  : .88rem;
+      line-height: 1.61;
+    }
+
+    ul {
+      margin: 0;
+    }
+  }
+
+  .textwidget {
+    margin-bottom: .5rem;
+  }
+}
+
+#CDSWIDSSP {
+  background-color: white !important;
+  border-radius   : 10px;
+  box-shadow      : 0 1px 2px -1px darken(white, 80%);
+  margin          : 0 auto !important;
+  padding         : 1rem !important;
+  width           : auto !important;
+
+  .widSSPData {
+    background: none !important;
+  }
+}
+
+#ta_tracking_selfserveprop_google {
+  display: none;
+}
+
+#ta_tracking_selfserveprop_criteo {
+  display: none;
+}
+
+.callout {
+  border-radius: 10px;
+  padding      : 2rem;
+
+  h4 {
+    font-size    : 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.callout--travel {
+  background-color: lightsalmon;
+  box-shadow      : 0 1px 2px -1px darken(lightsalmon, 80%);
+
+  p {
+    color        : darken(lightsalmon, 45%);
+    margin-bottom: 1rem;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  h4 {
+    color: darken(lightsalmon, 40%);
+  }
+}
+
+.rpwe_widget {
+  border-radius   : 10px;
+  padding         : 2em;
+  background-color: rgba($yellow, .5);
+  box-shadow      : 0 1px 2px -1px darken($yellow, 70%);
+
+  h4 {
+    color        : darken(#efe0a3, 45%);
+    font-size    : 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  a {
+    color: darken(#efe0a3, 50%);
+
+    &:hover {
+      color: darken(#efe0a3, 40%);
+    }
+  }
+}
+
+.rpwe-title {
+  margin-bottom: 0;
+  color        : darken(#efe0a3, 45%);
+}
+
+.rpwe-summary {
+  font-size  : inherit;
+  font-weight: 500;
+  font-size  : .88rem !important;
+  line-height: 1.61;
+  padding    : .5rem 0 1rem;
+  color      : darken(#efe0a3, 50%) !important;
+}
+
+.rpwe-time {
+  color    : darken(#efe0a3, 35%) !important;
+  font-size: .75rem;
+}
+/* Instagram Feed */
+#wdi_feed_0 .wdi_feed_container {
+  min-width : 160px;
+  width     : 100%;
+  margin    : .5rem auto 0 !important;
+  background: none !important;
+}
+
+#wdi_feed_0 .wdi_follow_btn {
+  font-size       : 18px;
+  font-weight     : 700 !important;
+  background-color: darken($blue, 5%) !important;
+  box-shadow      : 0 1px 2px -1px darken($blue, 70%);
+  border          : none !important;
+  color           : $background !important;
+  margin-left     : 1rem;
+  vertical-align  : text-bottom;
+  padding         : 0 1.5rem;
+}

@@ -1,0 +1,163 @@
+@include large {
+  .reservation__header {
+    display: flex;
+  }
+
+  .reservation__intro {
+    flex         : 2.5;
+    margin-right : 2rem;
+    padding-right: 2rem;
+  }
+
+  .reservation__contact {
+    flex: 1;
+  }
+}
+
+.price-table {
+  display      : flex;
+  border-bottom: solid 1px;
+  margin-bottom: 1rem;
+  @include large {
+    width: 66%;
+  }
+}
+
+.price-table__header {
+  font-weight  : 700;
+  border-bottom: solid 1px;
+  text-align   : center;
+}
+
+.price-table__guests {
+  text-align: center;
+}
+
+.price-table__cell {
+  text-align    : center;
+  letter-spacing: .1rem;
+}
+
+.price-table__column {
+  list-style-type: none;
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  flex           : 1;
+  margin-bottom  : .5rem;
+
+  li {
+    margin-bottom: 1rem;
+  }
+}
+
+.fine-print {
+  font-size    : .825em;
+  font-style   : italic;
+  margin-bottom: 0;
+  padding-left : 1rem;
+}
+
+.additionals__item {
+  margin: 3rem 0;
+  @include large {
+    width: 66%;
+  }
+}
+
+.additionals__header {
+  margin-bottom : 1rem;
+  text-transform: uppercase;
+  font-size     : .75em;
+  font-weight   : 700;
+  border-bottom : solid 1px;
+  color         : #8b9c13;
+  letter-spacing: .1rem;
+}
+
+.additionals__option {
+  margin-bottom: 1rem;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  span {
+    font-weight  : 700;
+    padding-right: 1rem;
+  }
+}
+/*	Forms	*/
+.form-section {
+  border       : solid 1px #e6e6e6;
+  padding      : 10px;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+
+  p {
+    margin: 0 0 1em;
+  }
+
+  h4 {
+    margin-bottom: 1rem;
+  }
+}
+
+.form-header {
+  margin-bottom: 3px;
+}
+
+input[type="checkbox"] {
+  margin: 0 .5em 1em 0;
+}
+
+span.wpcf7-list-item {
+  display: block;
+}
+
+span.wpcf7-list-item {
+  display: table-row;
+}
+
+span.wpcf7-list-item * {
+  display: table-cell;
+}
+
+input[type=submit] {
+  background   : #bcce3d;
+  font-weight  : 700;
+  width        : 100%;
+  text-shadow  : none;
+  border-radius: 5px;
+}
+
+.wpcf7-select {
+  font-size   : 1rem;
+  margin-right: 1rem;
+}
+
+input[type="email"],
+input[type="text"] {
+  margin-bottom: 1rem;
+  background   : lighten($background, 3%);
+}
+
+textarea {
+  background: lighten($background, 3%);
+}
+
+input[type="checkbox"] {
+  margin: 0 1rem 0 0;
+  width : 1.5rem;
+  height: 1.5rem;
+}
+
+span.wpcf7-list-item {
+  display    : flex;
+  align-items: center;
+  margin     : 0 0 .5rem .5rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

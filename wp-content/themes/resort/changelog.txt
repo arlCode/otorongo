@@ -1,0 +1,17 @@
+*** Resort Changelog ***
+
+2013.05.01 - version 1.0.3
+ * includes/featured-slider.php - Added 'flex-active-slide' class to slider when there's only one slide.
+ * css/woocommerce.css - Fixed Star Rating positioning in Safari.
+ * style.css - Reduced padding on table cells in mobile mode.
+ * css/layout.css - Reduced padding on table cells in mobile mode.
+
+2013.04.29 - version 1.0.2
+ * css/layout.css - Fixed issue that caused the social buttons to go out of alignment when "Custom Typography" is enabled & fixed buttons on top of the slider.
+ * style.css - Fixed issue that caused the social buttons to go out of alignment when "Custom Typography" is enabled & fixed buttons on top of the slider.
+
+2013.04.17 - version 1.0.1
+ * css/layout.css - Added "polaroid" look to the homepage gallery images & fixed slider arrows positioning.
+
+2013.04.16 - version 1.0.0
+ * First release!

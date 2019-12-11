@@ -1,0 +1,43 @@
+#content {
+  padding: 1rem 0;
+  @include large {
+    margin : 0 auto;
+    padding: 4rem 2rem 2rem;
+  }
+}
+
+.two-col {
+  display       : flex;
+  flex-direction: column;
+  @include large {
+    flex-direction: row;
+  }
+}
+
+#main {
+  @include large {
+    flex        : 2;
+    margin-right: 2rem;
+  }
+}
+
+#sidebar {
+  flex: 1;
+}
+
+.exp__wrap {}
+
+.secondary-header {
+  max-width: 1140px;
+  margin   : 0 auto;
+}
+
+.itinerary {
+  width : 70%;
+  margin: 0 auto;
+}
+
+.blog-list {
+  width : 66%;
+  margin: 0 auto;
+}
