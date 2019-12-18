@@ -1,3 +1,22 @@
-body {
-background-color: #000 !important;
+
+
+.rpwe {
+
+    &-block a{
+
+        font-size: 16px !important;
+    }
+    &-title {
+        a {
+            font-size: 16px;
+        }
+    }
+}
+
+.exp {
+    
+    &-container {
+        display: flex;
+        flex-direction: row;
+    }
 }
