@@ -24,7 +24,7 @@ if (! defined('ABSPATH')) {
 wp_head();
 woo_head();
 ?>
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <!-- Hotjar Tracking Code for otorongoexpeditions.com -->
 <script>
     (function(h,o,t,j,a,r){
@@ -41,22 +41,21 @@ woo_head();
 <?php woo_top(); ?>
 <?php echo file_get_contents(__DIR__ .'/includes/images/icons/svg.svg', true); ?>
 
-<div id="wrapper">
 
-    <?php woo_header_before(); ?>
+  <?php woo_header_before(); ?>
 
-	<header id="header" class="internal-header">
+<header class="container navigation--container">
 
 		      <?php woo_nav_before(); ?>
 
-				 <nav id="navigation" role="navigation">
+				 <nav class="row navigation--row" role="navigation">
            <?php woo_header_inside(); ?>
 					      <?php
                     if (function_exists('has_nav_menu') && has_nav_menu('primary-menu')) {
-                        wp_nav_menu(array( 'depth' => 6, 'sort_column' => 'menu_order', 'container' => 'ul', 'menu_id' => 'main-nav', 'menu_class' => 'nav', 'theme_location' => 'primary-menu' ));
+                        wp_nav_menu(array( 'depth' => 6, 'sort_column' => 'menu_order', 'container' => 'ul', 'menu_id' => 'main-nav', 'menu_class' => 'container', 'theme_location' => 'primary-menu' ));
                     } else {
                         ?>
-			        <ul id="main-nav" class="nav fl">
+
 
 						<?php if (is_page()) {
                             $highlight = 'page_item';
@@ -66,7 +65,7 @@ woo_head();
 
 						<li class="<?php echo $highlight; ?>"><a href="<?php echo esc_url(home_url('/')); ?>"><?php _e('Home', 'woothemes'); ?></a></li>
 						<?php wp_list_pages('sort_column=menu_order&depth=6&title_li=&exclude='); ?>
-					</ul><!-- /#nav -->
+
 			        <?php
 
                     } ?>
@@ -76,7 +75,7 @@ woo_head();
 				<!-- <?php woo_nav_after(); ?> -->
 
 
-	</header><!-- /#header -->
+	</header><!-- /header -->
 
   <div class="secondary-header-wrap">
     <div class="secondary-header">
